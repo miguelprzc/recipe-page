@@ -128,10 +128,27 @@ li {
 li input {
   margin: 5px 20px 0 5px;
   transform: scale(1.5);
+  appearance: none;
+  border: 1px solid #4f4f4f;
+  min-width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 li input:checked {
-  filter: invert(100%) hue-rotate(330deg) brightness(1.5);
+  border: none;
+  background-color: #F2994A;
+}
+
+li input:checked:after {
+  content : '✔';
+	color   : #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 li span {
