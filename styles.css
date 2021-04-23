@@ -2,6 +2,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-family: 'Montserrat', sans-serif;
   margin: 6% 4%;
+  box-sizing: border-box;
 }
 h1 {
   font-family: 'Playfair Display', serif;
@@ -99,7 +100,7 @@ h1 {
 h2 {
   color: #333333;
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
 }
@@ -111,5 +112,63 @@ h3 {
   font-style: italic;
   font-weight: 400;
   line-height: 22px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  margin-top: 5%;
+}
+
+li input {
+  margin: 5px 20px 0 5px;
+  transform: scale(1.5);
+}
+
+li span {
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+li .number-item {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 36px;
+  height: 36px;
+  padding: 5px;
+  border-radius: 12%;
+  background-color: #F2994A;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.source {
+  color: #BDBDBD;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+footer {
+  margin-top: 20%;
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+}
+
+footer a {
+  color: #828282;
+  font-weight:700;
 }
 
