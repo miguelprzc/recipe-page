@@ -53,9 +53,10 @@ h1 {
   
 }
 
-.material-icons {
+.material-icons-outlined {
   grid-area: material-icons;
   margin: 15%;
+  color: #4f4f4f;
   font-size: 18px;
   text-align: center;
 }
@@ -151,6 +152,7 @@ li .number-item {
 }
 
 .source {
+  margin-top: 10%;
   color: #BDBDBD;
   font-size: 12px;
   font-style: italic;
