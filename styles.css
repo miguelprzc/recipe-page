@@ -130,6 +130,10 @@ li input {
   transform: scale(1.5);
 }
 
+li input:checked {
+  filter: invert(100%) hue-rotate(330deg) brightness(1.5);
+}
+
 li span {
   font-weight: 400;
   line-height: 20px;
